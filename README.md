@@ -18,7 +18,7 @@ But the phone already knows. Every time I pay, my bank sends a notification with
 
 ## What it does
 
-- **Logs purchases automatically.** When a bank alert arrives, the app pulls the amount out of it and saves it. It understands formats like Freedom Bank's and HSBC Hong Kong's. It ignores things that aren't spending, like cashback, refunds, money coming in, verification codes and ads.
+- **Logs purchases automatically.** When a bank alert arrives, for example an English one like HSBC Hong Kong's, the app pulls the amount out of it and saves it. It ignores things that aren't spending, like cashback, refunds, money coming in, verification codes and ads.
 - **Asks what it was for, right after you pay.** A small pop-up offers your three most common reasons (Food, Transport, Clothes, or your own), a box to type something else, or "Not a purchase". You can also answer later.
 - **Works across currencies.** My card is in US dollars, but I live with Hong Kong dollars. Each purchase is converted at **that day's** exchange rate and kept that way, so last month's totals don't shift when rates change. It supports KZT, USD, HKD and SGD.
 - **Shows where the money went.** The month's total is a big price tag, with bars for the last six months. Below it, a spending line is split by category. **Swipe it right and it rolls into a ring; swipe it left and it becomes a column.**
