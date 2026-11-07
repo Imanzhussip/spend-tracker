@@ -210,7 +210,7 @@ components:
 
 The app is a supermarket price label that happens to know your month. Price-label yellow runs edge to edge across the top of every screen with ink on it, and the month's total sits there as a shelf price: a huge number with a small raised currency sign and raised, underlined cents. The same tag appears on Home, in the purchase pop-up and, small, on every purchase row. It is read from arm's length, one-handed, standing up.
 
-Below the yellow the app goes quiet: an ink ground in dark theme, a warm off-white in light, thin rules between rows. One heavy Russian grotesque carries everything. Colour is rationed so it can mean something, and the one red on the shelf means a purchase is still waiting for an answer. Loud where the number is and plain where the list is, it has to clear the owner's bar of neither plain nor childish.
+Below the yellow the app goes quiet: an ink ground in dark theme, a warm off-white in light, thin rules between rows. One heavy grotesque carries everything. Colour is rationed so it can mean something, and the one red on the shelf means a purchase is still waiting for an answer. Loud where the number is and plain where the list is, it has to clear the owner's bar of neither plain nor childish.
 
 The world was chosen against the category default of a dark screen with a rounded summary card and a blue accent. It is still built on Material 3 navigation, controls and system Back, re-coloured and re-shaped, not replaced.
 
@@ -261,7 +261,7 @@ A colour belongs to an option's place in the Purchase options list, not to how m
 **Body Font:** Golos Text
 **Label/Mono Font:** Golos Text, with tabular figures for amounts in lists
 
-**Character:** One Russian grotesque doing every job, from a Black-weight shelf price down to plain 14sp notes. Hierarchy comes from weight jumps, not from a second family. The app is English only, and the face also carries the ₸ sign.
+**Character:** One grotesque doing every job, from a Black-weight shelf price down to plain 14sp notes. Hierarchy comes from weight jumps, not from a second family. The app is English only, and the face also carries the ₸ sign.
 
 ### Hierarchy
 - **Shelf Price** (900, 92sp on Home and 72sp in the pop-up, -0.04em tracking on the whole number): the amount, and nothing else. The currency sign is 0.28 of the whole size and the cents 0.36, both top-aligned to the capitals.

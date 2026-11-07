@@ -18,7 +18,7 @@ Unresolved: none.
 
 THESIS: The monthly total is a supermarket shelf price: a huge number you can read from arm's length. It refuses the category default of a dark screen with a rounded summary card and a blue accent.
 
-OWN-WORLD: Price-label yellow #FFD400 runs edge to edge as the top field and every top bar, with ink #151412 on it. Below it, an ink ground in dark theme and warm off-white in light. Red #D90D25 means one thing only: a purchase still waiting for an answer. One heavy Russian grotesque, Golos Text, carries everything. Prices have a small raised currency sign and raised underlined cents. Thin rules divide rows, not cards.
+OWN-WORLD: Price-label yellow #FFD400 runs edge to edge as the top field and every top bar, with ink #151412 on it. Below it, an ink ground in dark theme and warm off-white in light. Red #D90D25 means one thing only: a purchase still waiting for an answer. One heavy grotesque, Golos Text, carries everything. Prices have a small raised currency sign and raised underlined cents. Thin rules divide rows, not cards.
 
 STORY: You see what you spent this month before anything else, see how it compares with recent months and where it went, spot what still needs an answer, and fix it in one tap. After paying, the pop-up shows the same price tag and three large answers.
 

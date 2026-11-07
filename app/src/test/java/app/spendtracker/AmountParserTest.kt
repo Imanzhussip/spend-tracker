@@ -204,4 +204,18 @@ class AmountParserTest {
         assertSkipped("Freedom Bank", "Your statement is ready")
         assertSkipped(null, null)
     }
+
+    private fun hsbcAlert(amount: String, merchant: String) =
+        "Your credit card ending in 1234 was used for a transaction of HKD $amount at $merchant on " +
+            "07/11/2026 14:32. If this wasn't you, please review or lock your card immediately in the app."
+
+    @Test
+    fun `reads an HSBC Hong Kong card alert`() {
+        assertSpend(15800, "HSBC HK App", hsbcAlert("158.00", "PARKNSHOP"), Currency.USD, "HKD")
+        assertSpend(15800, "HSBC HK App", hsbcAlert("158.00", "PARKNSHOP"), Currency.HKD)
+        assertSpend(123450, "HSBC HK App", hsbcAlert("1,234.50", "APPLE STORE CAUSEWAY BAY"), Currency.HKD)
+        // Shop names often contain numbers of their own.
+        assertSpend(1850, "HSBC HK App", hsbcAlert("18.50", "7-ELEVEN 1023"), Currency.HKD)
+        assertSpend(4200, "HSBC HK App", hsbcAlert("42", "CAFE 85C"), Currency.HKD)
+    }
 }

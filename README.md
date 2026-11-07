@@ -18,7 +18,7 @@ But the phone already knows. Every time I pay, my bank sends a notification with
 
 ## What it does
 
-- **Logs purchases automatically.** When a bank alert arrives, the app pulls the amount out of it, in Russian or English, and saves it. It ignores things that aren't spending, like cashback, refunds, money coming in, verification codes and ads.
+- **Logs purchases automatically.** When a bank alert arrives, the app pulls the amount out of it and saves it. It understands formats like Freedom Bank's and HSBC Hong Kong's. It ignores things that aren't spending, like cashback, refunds, money coming in, verification codes and ads.
 - **Asks what it was for, right after you pay.** A small pop-up offers your three most common reasons (Food, Transport, Clothes, or your own), a box to type something else, or "Not a purchase". You can also answer later.
 - **Works across currencies.** My card is in US dollars, but I live with Hong Kong dollars. Each purchase is converted at **that day's** exchange rate and kept that way, so last month's totals don't shift when rates change. It supports KZT, USD, HKD and SGD.
 - **Shows where the money went.** The month's total is a big price tag, with bars for the last six months. Below it, a spending line is split by category. **Swipe it right and it rolls into a ring; swipe it left and it becomes a column.**
@@ -41,7 +41,7 @@ It only reads notifications from the apps you choose (your bank), and it doesn't
 ## How it works
 
 1. **Listening.** A `NotificationListenerService` receives notifications. Everything from apps you haven't picked is ignored straight away.
-2. **Reading the amount.** `AmountParser` finds the spending amount in the alert text. This was the trickiest part: bank alerts mix in the remaining balance, card numbers, dates and cashback, and Russian alerts write numbers like `5 000,00 ₸`. It's covered by unit tests built from real alert formats.
+2. **Reading the amount.** `AmountParser` finds the spending amount in the alert text. This was the trickiest part: bank alerts mix in the remaining balance, card numbers, dates and cashback, and banks write numbers differently, like `1,234.50` or `5 000,00 ₸`. It's covered by unit tests built from real alert formats.
 3. **Converting.** If the purchase isn't in your display currency, the app converts it at today's rate and saves both amounts.
 4. **Asking.** A notification and a pop-up window ask what the purchase was for.
 5. **Showing.** The Home screen is built with Jetpack Compose. The chart is drawn by hand on a `Canvas`: the line, the ring and the column are one shape that bends as you swipe, rather than three separate charts.
@@ -71,7 +71,7 @@ The look is called **Shelf Tag**: the month's total is drawn like a yellow price
 ## Limitations
 
 - **Android only** (8.0 or newer), for the reason above.
-- It's tuned for **Freedom Bank** alerts, which is my bank. Other banks' wording may need small parser changes. You can paste any alert text into *Settings → Bank alerts → Test* to see how it would be read.
+- It's tested with **Freedom Bank** (my bank) and **HSBC Hong Kong** alert formats. Other banks' wording may need small parser changes. You can paste any alert text into *Settings → Bank alerts → Test* to see how it would be read.
 - **Prepaid wallets** like Octopus or a topped-up Alipay balance spend from money already loaded, so your bank only sees the top-up, not each purchase.
 
 ## Try it

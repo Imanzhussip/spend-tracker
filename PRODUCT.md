@@ -8,7 +8,7 @@ android
 
 ## Users
 
-People who pay by card or phone and want to know where their money goes, without typing in every purchase. The first user is the app's owner, on a Samsung S24 set to Russian, whose bank card charges in USD and who views spending in HKD. It is also meant for other people, so a stranger must understand it without help, including first-time setup.
+People who pay by card or phone and want to know where their money goes, without typing in every purchase. The first user is the app's owner, on a Samsung S24, whose bank card charges in USD and who views spending in HKD. It is also meant for other people, so a stranger must understand it without help, including first-time setup.
 
 Typical moment: standing at a till or walking out of a shop, phone in one hand, a few seconds of attention.
 
@@ -25,7 +25,7 @@ A bank notification becomes a one-tap question right after you pay. There is no 
 - The pop-up can open on top of any other app the moment a purchase happens. It may only get a few seconds of attention, so it must work with one thumb.
 - If the phone is locked, the user gets a notification instead and answers from there.
 - The home screen is opened occasionally to check the month.
-- Alerts are often in Russian, and a purchase can involve more than one currency.
+- Alerts come in different languages and number formats, and a purchase can involve more than one currency.
 
 ## Capabilities and Constraints
 
@@ -39,7 +39,7 @@ A bank notification becomes a one-tap question right after you pay. There is no 
 - A full swipe left on a purchase asks whether to delete it. A full swipe right opens Change, for its amount and answer. A partial swipe springs back with nothing done. A changed amount keeps its purchase day's rate.
 - Native Android, Jetpack Compose, Material 3. No account and no backend. The internet is used only to download exchange rates.
 - The rate source requires the credit line "Rates By Exchange Rate API", linked to its site.
-- The whole app is in English, including dates and months, whatever language the phone uses. Bank alerts can still be read in Russian.
+- The whole app is in English, including dates and months, whatever language the phone uses. Bank alerts can still be read in other languages.
 
 ## Brand Commitments
 
