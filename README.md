@@ -10,6 +10,14 @@
 
 <sub>Screenshots use demo purchases.</sub>
 
+## Download
+
+1. On your Android phone (Android 8 or newer), open the [latest release](https://github.com/Imanzhussip/spend-tracker/releases/latest) and tap **spend-tracker-1.0.apk**.
+2. Open the downloaded file to install it. If asked, allow your browser to install unknown apps. If Google Play Protect says the app is unknown, tap **More details → Install anyway**. It's unknown only because it isn't on the Play Store.
+3. Open Spend Tracker and follow the setup steps on the Home screen.
+
+**Can't turn on notification access?** For apps installed outside the Play Store, Android 13 and newer greys out that switch as a safety measure. Go to your phone's **Settings → Apps → Spend Tracker**, tap **⋮** in the top right corner, choose **Allow restricted settings**, and then try again.
+
 ## Why I made this
 
 Most of my friends track their spending by typing every purchase into an app or a notes page. Everyone gives up after a week or two, because you have to remember to do it every single time.
@@ -74,7 +82,7 @@ The look is called **Shelf Tag**: the month's total is drawn like a yellow price
 - It's tested with **Freedom Bank** (my bank) and **HSBC Hong Kong** alert formats. Other banks' wording may need small parser changes. You can paste any alert text into *Settings → Bank alerts → Test* to see how it would be read.
 - **Prepaid wallets** like Octopus or a topped-up Alipay balance spend from money already loaded, so your bank only sees the top-up, not each purchase.
 
-## Try it
+## Build it yourself
 
 You'll need Android Studio, or the Android SDK and JDK 17.
 

@@ -10,3 +10,4 @@ local.properties
 skills-lock.json
 # Review screenshots of the owner's real phone screen
 .impeccable/review/
+keystore.properties
