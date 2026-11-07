@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=390"><title>Shelf Tag</title>
+<style>
+*{box-sizing:border-box;margin:0}
+html,body{width:390px;height:844px;overflow:hidden;background:#151412;color:#F4F1E8;font-family:-apple-system,"Helvetica Neue",Arial,sans-serif}
+body{position:relative}
+.field{background:#FFD400;color:#151412;height:396px;padding:52px 24px 0;position:relative}
+.bar{display:flex;justify-content:space-between;align-items:center;font-size:22px;font-weight:800}
+.month{display:flex;align-items:center;gap:18px;margin-top:22px;font-size:17px;font-weight:700}
+.arrow{font-size:26px;line-height:1}
+.price{display:flex;align-items:flex-start;margin-top:14px;font-weight:900;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.cur{font-size:26px;margin:14px 6px 0 0;letter-spacing:-.02em}
+.int{font-size:92px;line-height:1.04}
+.cents{font-size:34px;margin:10px 0 0 4px;border-bottom:5px solid #151412;line-height:1.05;padding-bottom:2px}
+.count{font-size:17px;font-weight:600;margin-top:6px}
+.strip{position:absolute;left:24px;right:24px;bottom:16px;display:flex;align-items:flex-end;gap:8px;height:54px}
+.strip i{flex:1;background:#151412;opacity:.22;display:block;border-radius:2px 2px 0 0}
+.strip i.on{opacity:1}
+.body{padding:20px 24px}
+.split{display:flex;height:14px;gap:3px;margin-bottom:12px}
+.split b{display:block;border-radius:2px}
+.row{display:flex;justify-content:space-between;font-size:16px;padding:7px 0}
+.row .k{display:flex;align-items:center;gap:10px}
+.dot{width:11px;height:11px;border-radius:2px;display:inline-block}
+h3{font-size:22px;font-weight:800;margin:16px 0 6px}
+.item{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-top:1px solid #34322d}
+.item small{display:block;color:#aaa69a;font-size:14px;margin-top:2px}
+.item strong{font-size:22px;font-weight:800;font-variant-numeric:tabular-nums;text-align:right}
+.item strong sup{font-size:13px;vertical-align:top;margin-left:1px}
+.todo{background:#E8102A;color:#fff;margin:0 -24px;padding:10px 24px;border:0}
+.todo small{color:#ffd9dd}
+.fab{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);background:#FFD400;color:#151412;font-weight:800;font-size:18px;padding:17px 34px;border-radius:14px}
+</style></head><body>
+<div class="field">
+  <div class="bar"><span>Spending</span><span>⚙</span></div>
+  <div class="month"><span class="arrow">‹</span><span>Ноябрь 2026</span><span class="arrow" style="opacity:.3">›</span></div>
+  <div class="price"><span class="cur">HK$</span><span class="int">1,248</span><span class="cents">60</span></div>
+  <div class="count">23 purchases</div>
+  <div class="strip"><i style="height:48%"></i><i style="height:70%"></i><i style="height:38%"></i><i style="height:92%"></i><i style="height:62%"></i><i class="on" style="height:78%"></i></div>
+</div>
+<div class="body">
+  <div class="split"><b style="flex:49;background:#FFD400"></b><b style="flex:31;background:#F4F1E8"></b><b style="flex:20;background:#8d897d"></b></div>
+  <div class="row"><span class="k"><i class="dot" style="background:#FFD400"></i>Food</span><span>HK$612</span></div>
+  <div class="row"><span class="k"><i class="dot" style="background:#F4F1E8"></i>Transport</span><span>HK$388</span></div>
+  <h3>Purchases</h3>
+  <div class="item todo"><div>Choose a category<small>6 нояб. · $6.27</small></div><strong>49<sup>17</sup></strong></div>
+  <div class="item"><div>Food<small>6 нояб. · $0.99</small></div><strong>7<sup>76</sup></strong></div>
+</div>
+<div class="fab">+ Add</div>
+</body></html>

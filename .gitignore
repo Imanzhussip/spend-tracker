@@ -1,0 +1,12 @@
+.gradle/
+.kotlin/
+build/
+local.properties
+*.apk
+.idea/
+.DS_Store
+# Claude Code settings and a third-party design skill
+.claude/
+skills-lock.json
+# Review screenshots of the owner's real phone screen
+.impeccable/review/

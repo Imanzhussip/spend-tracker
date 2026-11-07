@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-06T15:00:00Z",
+  "title": "Design System: Spend Tracker",
+  "extensions": {
+    "colorMeta": {
+      "tag-yellow": {
+        "role": "primary",
+        "displayName": "Price-Label Yellow",
+        "canonical": "#FFD400",
+        "tonalRamp": [
+          "#100B00",
+          "#2C2300",
+          "#4D3E01",
+          "#705C02",
+          "#957B05",
+          "#BB9C13",
+          "#E0C257",
+          "#F6EFD4"
+        ]
+      },
+      "tag-ink": {
+        "role": "primary",
+        "displayName": "Tag Ink",
+        "canonical": "#151412",
+        "tonalRamp": [
+          "#0C0B0A",
+          "#252422",
+          "#41403D",
+          "#5F5D5B",
+          "#7E7D7A",
+          "#A09E9B",
+          "#C5C4C2",
+          "#EFEEEE"
+        ]
+      },
+      "needs-answer-red": {
+        "role": "secondary",
+        "displayName": "Needs-Answer Red",
+        "canonical": "#D90D25",
+        "tonalRamp": [
+          "#1F0001",
+          "#4A0106",
+          "#7C0310",
+          "#B0081C",
+          "#E4222F",
+          "#FB6862",
+          "#FDACA4",
+          "#FFE9E6"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#F4F1E8",
+        "tonalRamp": [
+          "#0C0B08",
+          "#26241D",
+          "#424038",
+          "#605D56",
+          "#807D75",
+          "#A19E96",
+          "#C6C4BE",
+          "#EFEEED"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#242424",
+          "#404040",
+          "#5D5D5D",
+          "#7D7D7D",
+          "#9E9E9E",
+          "#C4C4C4",
+          "#EEEEEE"
+        ]
+      },
+      "ground-light": {
+        "role": "neutral",
+        "displayName": "Warm Off-White",
+        "canonical": "#FAF8F1",
+        "tonalRamp": [
+          "#0C0B09",
+          "#25241F",
+          "#41403A",
+          "#5F5E58",
+          "#7F7D77",
+          "#A09E98",
+          "#C5C4BF",
+          "#EFEEED"
+        ]
+      },
+      "raised-light": {
+        "role": "neutral",
+        "displayName": "Raised Light",
+        "canonical": "#F1EEE3",
+        "tonalRamp": [
+          "#0C0B07",
+          "#26241C",
+          "#424037",
+          "#605E54",
+          "#807D73",
+          "#A19E94",
+          "#C6C4BC",
+          "#EFEEEC"
+        ]
+      },
+      "raised-dark": {
+        "role": "neutral",
+        "displayName": "Raised Dark",
+        "canonical": "#26241F",
+        "tonalRamp": [
+          "#0C0B08",
+          "#26241F",
+          "#42403A",
+          "#605D58",
+          "#7F7D77",
+          "#A19E98",
+          "#C6C4BF",
+          "#EFEEED"
+        ]
+      },
+      "stone-light": {
+        "role": "neutral",
+        "displayName": "Stone Light",
+        "canonical": "#E9E5D9",
+        "tonalRamp": [
+          "#0D0B07",
+          "#27241B",
+          "#434036",
+          "#615D53",
+          "#817D72",
+          "#A29E93",
+          "#C7C4BC",
+          "#EFEEEC"
+        ]
+      },
+      "stone-dark": {
+        "role": "neutral",
+        "displayName": "Stone Dark",
+        "canonical": "#302D28",
+        "tonalRamp": [
+          "#0C0B08",
+          "#26241F",
+          "#423F3A",
+          "#605D57",
+          "#807D77",
+          "#A29E98",
+          "#C6C4BF",
+          "#EFEEED"
+        ]
+      },
+      "muted-on-light": {
+        "role": "neutral",
+        "displayName": "Muted on Light",
+        "canonical": "#5C584E",
+        "tonalRamp": [
+          "#0D0B07",
+          "#27241B",
+          "#433F36",
+          "#615D53",
+          "#817D72",
+          "#A29E93",
+          "#C7C4BC",
+          "#EFEEEC"
+        ]
+      },
+      "muted-on-dark": {
+        "role": "neutral",
+        "displayName": "Muted on Dark",
+        "canonical": "#B8B4A8",
+        "tonalRamp": [
+          "#0D0B07",
+          "#27241A",
+          "#434035",
+          "#615D53",
+          "#817D72",
+          "#A29E93",
+          "#C7C4BB",
+          "#EFEEEC"
+        ]
+      },
+      "outline": {
+        "role": "neutral",
+        "displayName": "Outline",
+        "canonical": "#8D897D",
+        "tonalRamp": [
+          "#0D0B06",
+          "#27241A",
+          "#434035",
+          "#615D52",
+          "#817D71",
+          "#A29E92",
+          "#C7C4BB",
+          "#EFEEEC"
+        ]
+      },
+      "rule-light": {
+        "role": "neutral",
+        "displayName": "Rule Light",
+        "canonical": "#DAD6C9",
+        "tonalRamp": [
+          "#0D0B06",
+          "#27241A",
+          "#434035",
+          "#615E52",
+          "#817D71",
+          "#A29E92",
+          "#C7C4BB",
+          "#EFEEEC"
+        ]
+      },
+      "rule-dark": {
+        "role": "neutral",
+        "displayName": "Rule Dark",
+        "canonical": "#34322D",
+        "tonalRamp": [
+          "#0C0B09",
+          "#26241F",
+          "#42403A",
+          "#605D58",
+          "#7F7D77",
+          "#A19E98",
+          "#C6C4BF",
+          "#EFEEED"
+        ]
+      },
+      "category-pale": {
+        "role": "neutral",
+        "displayName": "Category Pale",
+        "canonical": "#D3CFC2",
+        "tonalRamp": [
+          "#0D0B06",
+          "#27241A",
+          "#434035",
+          "#615E52",
+          "#817D71",
+          "#A29E92",
+          "#C7C4BB",
+          "#EFEEEC"
+        ]
+      },
+      "category-dim": {
+        "role": "neutral",
+        "displayName": "Category Dim",
+        "canonical": "#66625A",
+        "tonalRamp": [
+          "#0D0B08",
+          "#27241D",
+          "#433F38",
+          "#615D55",
+          "#817D74",
+          "#A29E95",
+          "#C7C4BD",
+          "#EFEEEC"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "price-home": {
+        "displayName": "Shelf Price, Home",
+        "purpose": "The month total. Currency sign at 0.28 and cents at 0.36 of the whole size; rule at 0.045. Scales down to fit one line."
+      },
+      "price-prompt": {
+        "displayName": "Shelf Price, Pop-up",
+        "purpose": "The purchase amount in the pop-up, same proportions as Home."
+      },
+      "price-row": {
+        "displayName": "Row Price, Whole",
+        "purpose": "The whole number on a purchase row, tabular."
+      },
+      "price-row-small": {
+        "displayName": "Row Price, Sign and Cents",
+        "purpose": "The sign and cents on a purchase row, tabular."
+      },
+      "headline-small": {
+        "displayName": "Headline",
+        "purpose": "The Add dialog title."
+      },
+      "title-large": {
+        "displayName": "Title Large",
+        "purpose": "Top bar titles, section headings, the pop-up question, the empty state."
+      },
+      "title-medium": {
+        "displayName": "Title Medium",
+        "purpose": "The month name and the pop-up answer labels."
+      },
+      "title-small": {
+        "displayName": "Title Small",
+        "purpose": "The purchase count, Charged and small headings."
+      },
+      "row-title": {
+        "displayName": "Row Title",
+        "purpose": "First line of purchase, setup and settings rows."
+      },
+      "body-large": {
+        "displayName": "Body",
+        "purpose": "Default text, empty state copy and category names."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "Second lines of rows, notes and unselected month labels. Material bodyMedium has the same values."
+      },
+      "label-large": {
+        "displayName": "Label Large",
+        "purpose": "Button text."
+      },
+      "label-small": {
+        "displayName": "Label Small",
+        "purpose": "The selected month label. Material labelMedium has the same values."
+      }
+    },
+    "shadows": [
+      {
+        "name": "add-button",
+        "value": "6dp elevation (Material 3 extended FAB default)",
+        "purpose": "The only resting shadow, on the button that floats over the list."
+      }
+    ],
+    "motion": [
+      {
+        "name": "month-bar-height",
+        "value": "tween 220ms, cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Bar heights on the month change. Compose default easing."
+      },
+      {
+        "name": "month-bar-tone",
+        "value": "tween 220ms, cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Bar opacity between 50% and 100% on the month change."
+      },
+      {
+        "name": "month-total-crossfade",
+        "value": "crossfade 180ms, cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "The Home price on the month change."
+      }
+    ],
+    "breakpoints": []
+  },
+  "components": [
+    {
+      "name": "Price Tag",
+      "kind": "custom",
+      "refersTo": "shelf-field",
+      "description": "The signature: the month total as a shelf price on the yellow field, shown here at the Home size.",
+      "html": "<div class=\"ds-price\" role=\"img\" aria-label=\"HK$155.27\"><span class=\"ds-price-sign\">HK$</span><span class=\"ds-price-whole\">155</span><span class=\"ds-price-cents\">27</span></div>",
+      "css": ".ds-price{display:inline-flex;align-items:flex-start;gap:4px;padding:16px 24px;background:#FFD400;color:#151412;font-family:\"Golos Text\",sans-serif;font-weight:900;line-height:1;}.ds-price-whole{font-size:92px;letter-spacing:-.04em;}.ds-price-sign{font-size:25.76px;margin-top:9px;}.ds-price-cents{font-size:33.12px;margin-top:8px;border-bottom:4.14px solid currentColor;}"
+    },
+    {
+      "name": "Row Price",
+      "kind": "custom",
+      "refersTo": "price-row",
+      "description": "The same tag at list size, with a fixed 2dp rule and tabular figures. It does not scale.",
+      "html": "<div class=\"ds-rowprice-host\"><span class=\"ds-rowprice\"><span class=\"ds-rowprice-small\">HK$</span><span class=\"ds-rowprice-whole\">49</span><span class=\"ds-rowprice-cents\">17</span></span></div>",
+      "css": ".ds-rowprice-host{display:inline-block;padding:12px 24px;background:#151412;color:#F4F1E8;}.ds-rowprice{display:inline-flex;align-items:flex-start;gap:2px;font-family:\"Golos Text\",sans-serif;font-feature-settings:\"tnum\";}.ds-rowprice-whole{font-size:22px;line-height:28px;font-weight:800;}.ds-rowprice-small,.ds-rowprice-cents{font-size:14px;line-height:20px;font-weight:700;}.ds-rowprice-cents{border-bottom:2px solid currentColor;}"
+    },
+    {
+      "name": "Top Bar",
+      "kind": "nav",
+      "refersTo": "top-bar",
+      "description": "Material small top app bar, yellow with ink on every screen in both themes.",
+      "html": "<header class=\"ds-topbar\"><span class=\"ds-topbar-title\">Spending</span><button class=\"ds-topbar-icon\" aria-label=\"Settings\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z\"/></svg></button></header>",
+      "css": ".ds-topbar{display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 4px 0 24px;background:#FFD400;color:#151412;font-family:\"Golos Text\",sans-serif;}.ds-topbar-title{font-size:22px;line-height:28px;font-weight:800;}.ds-topbar-icon{width:56px;height:56px;display:grid;place-items:center;background:none;border:0;border-radius:50%;color:inherit;}.ds-topbar-icon:active,.ds-topbar-icon:focus-visible{box-shadow:inset 0 0 0 999px rgba(21,20,18,.1);}"
+    },
+    {
+      "name": "Month Bars",
+      "kind": "custom",
+      "refersTo": "month-bar",
+      "description": "Six recent months at one shared scale. The selected month is solid with a bold label, the others 50% ink.",
+      "html": "<div class=\"ds-bars\"><button class=\"ds-bar\" aria-label=\"Jun\"><span class=\"ds-bar-track\"><span class=\"ds-bar-fill\" style=\"height:4px\"></span></span><span class=\"ds-bar-label\">Jun</span></button><button class=\"ds-bar\" aria-label=\"Jul\"><span class=\"ds-bar-track\"><span class=\"ds-bar-fill\" style=\"height:22px\"></span></span><span class=\"ds-bar-label\">Jul</span></button><button class=\"ds-bar\" aria-label=\"Aug\"><span class=\"ds-bar-track\"><span class=\"ds-bar-fill\" style=\"height:31px\"></span></span><span class=\"ds-bar-label\">Aug</span></button><button class=\"ds-bar\" aria-label=\"Sep\"><span class=\"ds-bar-track\"><span class=\"ds-bar-fill\" style=\"height:18px\"></span></span><span class=\"ds-bar-label\">Sep</span></button><button class=\"ds-bar\" aria-label=\"Oct\"><span class=\"ds-bar-track\"><span class=\"ds-bar-fill\" style=\"height:44px\"></span></span><span class=\"ds-bar-label\">Oct</span></button><button class=\"ds-bar ds-bar-on\" aria-label=\"Nov\"><span class=\"ds-bar-track\"><span class=\"ds-bar-fill\" style=\"height:56px\"></span></span><span class=\"ds-bar-label\">Nov</span></button></div>",
+      "css": ".ds-bars{display:flex;width:320px;padding:16px 20px;background:#FFD400;color:#151412;font-family:\"Golos Text\",sans-serif;}.ds-bar{flex:1;padding:0 4px;background:none;border:0;color:inherit;font:inherit;display:flex;flex-direction:column;gap:4px;align-items:stretch;}.ds-bar-track{height:56px;display:flex;align-items:flex-end;}.ds-bar-fill{width:100%;background:currentColor;border-radius:2px 2px 0 0;opacity:.5;transition:height 220ms cubic-bezier(.4,0,.2,1),opacity 220ms cubic-bezier(.4,0,.2,1);}.ds-bar-on .ds-bar-fill{opacity:1;}.ds-bar-label{font-size:14px;line-height:20px;text-align:center;}.ds-bar-on .ds-bar-label{font-weight:700;}.ds-bar:active,.ds-bar:focus-visible{box-shadow:inset 0 0 0 999px rgba(21,20,18,.1);}"
+    },
+    {
+      "name": "Purchase Row, Answered",
+      "kind": "custom",
+      "refersTo": "row-purchase-dark",
+      "description": "Dark theme values. A thin rule on the 24dp edge above each row, muted second line, Row Price on the right.",
+      "html": "<a class=\"ds-row\" href=\"#\"><span class=\"ds-row-inner\"><span class=\"ds-row-text\"><span class=\"ds-row-title\">Snacks</span><span class=\"ds-row-sub\">6 Nov · $6.27</span></span><span class=\"ds-rowprice\"><span class=\"ds-rowprice-small\">HK$</span><span class=\"ds-rowprice-whole\">49</span><span class=\"ds-rowprice-cents\">17</span></span></span></a>",
+      "css": ".ds-row{display:block;background:#151412;color:#F4F1E8;text-decoration:none;font-family:\"Golos Text\",sans-serif;}.ds-row-inner{display:flex;align-items:center;gap:16px;min-height:72px;margin:0 24px;padding:12px 0;border-top:1px solid #34322D;box-sizing:border-box;}.ds-row-text{flex:1;display:flex;flex-direction:column;}.ds-row-title{font-size:16px;line-height:24px;font-weight:500;}.ds-row-sub{font-size:14px;line-height:20px;color:#B8B4A8;}.ds-row:active,.ds-row:focus-visible{box-shadow:inset 0 0 0 999px rgba(244,241,232,.1);}.ds-rowprice{display:inline-flex;align-items:flex-start;gap:2px;font-family:\"Golos Text\",sans-serif;font-feature-settings:\"tnum\";}.ds-rowprice-whole{font-size:22px;line-height:28px;font-weight:800;}.ds-rowprice-small,.ds-rowprice-cents{font-size:14px;line-height:20px;font-weight:700;}.ds-rowprice-cents{border-bottom:2px solid currentColor;}"
+    },
+    {
+      "name": "Purchase Row, Unanswered",
+      "kind": "custom",
+      "refersTo": "row-purchase-unanswered",
+      "description": "The only use of red on a row: full width, white text, 40% white rule. Tapping opens the pop-up.",
+      "html": "<a class=\"ds-row-red\" href=\"#\"><span class=\"ds-row-red-inner\"><span class=\"ds-row-red-text\"><span class=\"ds-row-red-title\">Choose a category</span><span class=\"ds-row-red-sub\">6 Nov · $6.27</span></span><span class=\"ds-rowprice\"><span class=\"ds-rowprice-small\">HK$</span><span class=\"ds-rowprice-whole\">49</span><span class=\"ds-rowprice-cents\">17</span></span></span></a>",
+      "css": ".ds-row-red{display:block;background:#D90D25;color:#fff;text-decoration:none;font-family:\"Golos Text\",sans-serif;}.ds-row-red-inner{display:flex;align-items:center;gap:16px;min-height:72px;margin:0 24px;padding:12px 0;border-top:1px solid rgba(255,255,255,.4);box-sizing:border-box;}.ds-row-red-text{flex:1;display:flex;flex-direction:column;}.ds-row-red-title{font-size:16px;line-height:24px;font-weight:500;}.ds-row-red-sub{font-size:14px;line-height:20px;}.ds-row-red:active,.ds-row-red:focus-visible{box-shadow:inset 0 0 0 999px rgba(255,255,255,.1);}.ds-rowprice{display:inline-flex;align-items:flex-start;gap:2px;font-family:\"Golos Text\",sans-serif;font-feature-settings:\"tnum\";}.ds-rowprice-whole{font-size:22px;line-height:28px;font-weight:800;}.ds-rowprice-small,.ds-rowprice-cents{font-size:14px;line-height:20px;font-weight:700;}.ds-rowprice-cents{border-bottom:2px solid currentColor;}"
+    },
+    {
+      "name": "Filled Button",
+      "kind": "button",
+      "refersTo": "button-filled-dark",
+      "description": "Dark theme values, yellow with ink; ink with white in light theme. Setup actions and the Purchase options Save.",
+      "html": "<button class=\"ds-btn-filled\">Choose</button>",
+      "css": ".ds-btn-filled{min-height:48px;padding:0 24px;background:#FFD400;color:#151412;border:0;border-radius:12px;font-family:\"Golos Text\",sans-serif;font-size:16px;line-height:24px;font-weight:700;}.ds-btn-filled:active,.ds-btn-filled:focus-visible{box-shadow:inset 0 0 0 999px rgba(21,20,18,.1);}"
+    },
+    {
+      "name": "Answer Button",
+      "kind": "button",
+      "refersTo": "button-answer-dark",
+      "description": "Dark theme values. The pop-up options: full width, 64dp, label aligned left.",
+      "html": "<button class=\"ds-btn-answer\">Transport</button>",
+      "css": ".ds-btn-answer{width:320px;height:64px;padding:0 24px;text-align:left;background:#302D28;color:#F4F1E8;border:0;border-radius:12px;font-family:\"Golos Text\",sans-serif;font-size:18px;line-height:24px;font-weight:700;}.ds-btn-answer:active,.ds-btn-answer:focus-visible{box-shadow:inset 0 0 0 999px rgba(244,241,232,.1);}"
+    },
+    {
+      "name": "Add Button",
+      "kind": "button",
+      "refersTo": "button-add",
+      "description": "Material extended FAB, centred at the bottom of Home. The only element with a resting shadow.",
+      "html": "<button class=\"ds-btn-add\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z\"/></svg><span>Add</span></button>",
+      "css": ".ds-btn-add{display:inline-flex;align-items:center;gap:12px;height:56px;padding:0 20px 0 16px;background:#FFD400;color:#151412;border:0;border-radius:14px;box-shadow:0 3px 6px rgba(0,0,0,.3);font-family:\"Golos Text\",sans-serif;font-size:16px;line-height:24px;font-weight:700;}.ds-btn-add:active,.ds-btn-add:focus-visible{box-shadow:0 3px 6px rgba(0,0,0,.3),inset 0 0 0 999px rgba(21,20,18,.1);}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "text-field",
+      "description": "Dark theme values. Material outlined field with 12dp corners; focus thickens the outline in the primary colour. There is no error style.",
+      "html": "<input class=\"ds-field\" placeholder=\"Or type your own\" aria-label=\"Or type your own\">",
+      "css": ".ds-field{width:320px;height:56px;padding:0 16px;background:#151412;color:#F4F1E8;border:1px solid #8D897D;border-radius:12px;box-sizing:border-box;font-family:\"Golos Text\",sans-serif;font-size:16px;line-height:24px;}.ds-field::placeholder{color:#B8B4A8;}.ds-field:focus-visible{outline:0;border:2px solid #FFD400;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Shelf Tag",
+    "overview": "The app is a supermarket price label that happens to know your month. Price-label yellow runs edge to edge across the top of every screen with ink on it, and the month's total sits there as a shelf price: a huge number with a small raised currency sign and raised, underlined cents. The same tag appears on Home, in the purchase pop-up and, small, on every purchase row. It is read from arm's length, one-handed, standing up.\n\nBelow the yellow the app goes quiet: an ink ground in dark theme, a warm off-white in light, thin rules between rows. One heavy Russian grotesque carries everything. Colour is rationed so it can mean something, and the one red on the shelf means a purchase is still waiting for an answer. Loud where the number is and plain where the list is, it has to clear the owner's bar of neither plain nor childish.\n\nThe world was chosen against the category default of a dark screen with a rounded summary card and a blue accent. It is still built on Material 3 navigation, controls and system Back, re-coloured and re-shaped, not replaced.",
+    "keyCharacteristics": [
+      "Yellow field and top bars, edge to edge, in both themes",
+      "The shelf price as the one signature, at three sizes",
+      "One family, Golos Text, with nothing under 14sp",
+      "Red for one meaning only",
+      "Flat, divided by thin rules and not by cards",
+      "One authored motion: the month change"
+    ],
+    "rules": [
+      {
+        "name": "The Two Reds Rule",
+        "body": "Red means only \"a purchase still waiting for an answer\" or \"delete this purchase\". It never marks errors, overspending or emphasis, and it never joins the category sequence.",
+        "section": "colors"
+      },
+      {
+        "name": "The Yellow Lid Rule",
+        "body": "Every screen's top bar is yellow with ink on it in both themes, whatever the ground below, so the status bar icons stay dark in both themes.",
+        "section": "colors"
+      },
+      {
+        "name": "The Fixed Colour Rule",
+        "body": "The spending chart uses exactly five solid colours, all from the app's palette: three for the options, grey for Others and red for unanswered, always in that order. Never add a new hue, a pattern or a sixth colour, and never give a colour to a group by rank. Change Green appears only while a row is swiped.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Golos Text is the only typeface. New hierarchy comes from weight and size, never from a second face.",
+        "section": "typography"
+      },
+      {
+        "name": "The 14sp Floor Rule",
+        "body": "Nothing is smaller than 14sp, so the app can be read at a glance. All type is in sp and follows the system font size.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular List Rule",
+        "body": "Amounts in lists use tabular figures so they line up down the column. The shelf price does not need them.",
+        "section": "typography"
+      },
+      {
+        "name": "The 48dp Thumb Rule",
+        "body": "Every target is at least 48dp. Answers are 64dp, top bar icons and pop-up actions 56dp, rows 72dp. Month bars count their gaps as part of the target.",
+        "section": "layout"
+      },
+      {
+        "name": "The 24dp Edge Rule",
+        "body": "New content sits on the 24dp edge. Full-width fills, such as the yellow field and the red row, bleed to the screen edge while their content stays on it.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Shelf Rule",
+        "body": "Nothing casts a shadow except the one button that floats over content. A new surface separates by colour.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Tag Corner Rule",
+        "body": "New buttons and fields use the shared 12dp corner. Material's default pill must be overridden on filled buttons.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Where-It-Went Motion Rule",
+        "body": "Motion only shows where things went. Pages move like Android's own: a deeper page slides in from the right over 380ms on Material's emphasised deceleration while the page under it shifts a quarter left and dims, Back reverses this over 300ms, and the calendar picker rises from below like a sheet. The back swipe moves the page with the finger and lets go early without leaving. Purchase rows glide into place when one is added or deleted. The month change tweens bar heights and tone over 220ms and crossfades the total over 180ms. A swiped row and the spending chart follow the finger: the row springs back on release, and the chart glides to its nearest resting place on a non-bouncing spring, with a small tick when release would land on a new shape. Everything else that moves is platform behaviour. Add no decorative animation.",
+        "section": "components"
+      },
+      {
+        "name": "The Rules-Not-Cards Rule",
+        "body": "Thin rules divide rows; content rows are never wrapped in cards. Purchases, setup steps and settings all use a rule on the 24dp edge. Category rows need none because the swatch leads each one, and pick lists need none because a checkbox or radio ends each one.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do keep the month's total the first thing on Home, in the yellow field, set with the Price Tag.",
+      "Do set a converted purchase's amount with the Price Tag or Row Price, with the sign, raised cents and rule intact.",
+      "Do use Material colour roles from the theme, so both themes keep working.",
+      "Do check every new screen in both themes: yellow top bar in each, ink ground in dark and warm off-white in light.",
+      "Do keep every target at 48dp or more and every label at 14sp or more, in sp.",
+      "Do disable an action when input is invalid, as the dialog and Purchase options do."
+    ],
+    "donts": [
+      "Don't use red for anything except a purchase still waiting for an answer or deleting a purchase. That rules out errors and Material's `isError` state.",
+      "Don't delete a purchase from a swipe without the confirmation dialog.",
+      "Don't use Change Green anywhere but the Change panel.",
+      "Don't put the total in a rounded summary card, or add a blue accent. This is the category default the world was chosen against.",
+      "Don't wrap content rows in cards; divide them with thin rules.",
+      "Don't add a second typeface or a second accent hue.",
+      "Don't set anything smaller than 14sp or make any target smaller than 48dp.",
+      "Don't add an authored animation beyond the month change.",
+      "Don't add shadows beyond the Add button's."
+    ]
+  }
+}
